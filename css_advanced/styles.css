@@ -12,6 +12,12 @@ body {
     background-color: #f4f4f4;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 header {
     background: #333;
     color: #fff;
@@ -28,14 +34,14 @@ header img {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 20px; 
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    padding: 10px 15px; 
+    padding: 10px 15px;
     transition: background 0.3s;
 }
 
@@ -43,11 +49,10 @@ nav a:hover {
     background: #555; 
 }
 
-
 #home {
     background: url('images/banner.jpg') no-repeat center center/cover; 
     color: #fff;
-    height: 500px;
+    height: 500px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,6 +69,26 @@ nav a:hover {
 #home p {
     font-size: 1.2em; 
     max-width: 600px; 
+}
+
+.quote-section {
+    background-color: #fff; 
+    color: #333; 
+    padding: 40px; 
+    text-align: center;
+    font-style: italic;
+    border-left: 5px solid #333; 
+    margin: 20px auto; 
+}
+
+.quote-section p {
+    font-size: 1.5em; 
+    margin-bottom: 20px;
+}
+
+.quote-section .author {
+    font-size: 1.2em; 
+    font-weight: bold;
 }
 
 main {
