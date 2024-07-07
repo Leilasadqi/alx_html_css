@@ -15,7 +15,6 @@ main {
 header, footer {
     width: 100%;
 }
-
 article {
     flex: 2;
     overflow-y: auto;
@@ -24,4 +23,14 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+}
+
+.works_on_smartphone main {
+    flex-direction: column;
+}
+
+.works_on_smartphone article, 
+.works_on_smartphone aside {
+    flex: none;
+    width: 100%;
 }
